@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+
+.Section_3 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
+    background-size: cover;
+    padding-bottom: 7.4%; 
+}
+
+.S3_ONE {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+    padding-bottom: 1%;
+   
+}
+
+.S3_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+}
+
+
+.S3_ONE h1 {
+    display: flex;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.S3_TWO {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.S3_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 160px;
+    padding: 30px 30px 20px 30px;
+    margin-bottom: 2.5%;
+    
+}
+
+
+.S3_TWO img {
+    width: 70px;
+    transition: transform 0.3s ease;
+}
+
+.S3_TWO img:hover {
+    transform: translateY(-15px);
+}
+
+.S3_TWO h4 {
+    text-align: left;
+    
+}
+
+.GET_STARTED {
+    padding-top: 3%;
+    padding-left: 14%;
+}
+
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 10%;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .Section_3 {
+        overflow: hidden;
+        margin-top: -7%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .Section_3 {
+        height: 100vh;
+        margin-top: -7%;
+    }
+}
+
+
+
+
+
+
+
+
