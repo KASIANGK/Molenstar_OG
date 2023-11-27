@@ -1,102 +1,777 @@
 body {
     width: 100%;
-    height: fit-content;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
+    
 }
 
-
-.Section_3 {
-    width: 100%;
-    height: fit-content;
+.Section4 {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    height: fit-content;
     background-color: rgb(10, 25, 84);
     color: white;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding-top: 6%;
-    background-size: cover;
-    padding-bottom: 1%;
+    position: relative;
+    
+    /* background-repeat: no-repeat;
+    background-position: left center; */
 }
 
-.S3_ONE {
-    width: 100%;
+.Image_Back {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    transform: rotate(-5deg);
+}
+
+.Image_Back img {
+    margin-right: 25%;
+    width: 70%;
+}
+
+
+.S4_ONE {
+    width: 30%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 1px;
-    
-   
+    margin: 5% auto; /* auto - centrer avec margin auto */
+    padding-right: 2%;
 }
 
-.S3_ONE h4 {
+.INTRO {
+    width:100%;
+}
+
+
+.S4_ONE h4 {
     letter-spacing: 2px;
     color: #549bd6;
 }
 
 
-.S3_ONE h1 {
+.S4_ONE h1 {
     display: flex;
-    font-size:  40px;
+    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
     line-height: 1.2;
-    text-align: center;
-    margin-top: -0.001%;
 }
 
-.S3_TWO {
+.S4_ONE p {
+    color: #6a7cbd;
+    text-align: justify;
+    line-height: 150%;
+}
+
+
+.S4_ONEBIS {
+    width: 100%;
     display: flex;
-    gap: 2%;
+    flex-direction: column;
     flex-wrap: wrap;
+}
+
+.ProgressBar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    align-items: center;
     justify-content: center;
+    /* margin-top: -7%; */
+}
+
+.ProgressBar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 3% 1% 5%;
+    width: 20%;
+}
+
+.ProgressBar div {
+    /* position: relative; - SVG CIRCLE PROGRESSBAR */
+    /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+    height: 70px;  - SVG CIRCLE PROGRESSBAR */
+    width: 10%; 
+    height: auto;
+    /* width: 80px;
+    height: 100px; */
+}
+
+/* .ProgressBar svg { SVG CIRCLE PROGRESSBAR
+    position: absolute; - SVG CIRCLE PROGRESSBAR
+    width: 100%;
+    height: 100%;
+} */
+
+.ProgressBar h2 {
+    display: flex;
+    padding-right: 15%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+    /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+}
+
+
+
+  .First_ProgressBar { 
+      width: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      background: 
+        radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 80% 100%),
+        conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+  }
+
+  .Second_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 78% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+
+
+.Third_ProgressBar { 
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 64% 100%),
+      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+}
+  
+  .First_ProgressBar progress,
+  .Second_ProgressBar progress,
+  .Third_ProgressBar progress {
+      visibility: hidden;
+  }
+
+
+  /* .First_ProgressBar h2,
+  .Second_ProgressBar h2,
+  .Third_ProgressBar h2 {
+  } */
+
+
+
+.Paragraphes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13%;
+    margin-top: -1%;
+
+}
+
+.Paragraphes p {
+    color: white;
+}
+
+
+.S4_TWO {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.Image_Working_Girl {
+    position: relative;
     width: 100%;
 }
 
-.S3_TWO div {
-    background-color: rgba(53, 70, 137, 0.233);
-    border-radius: 10%;
-    width: 160px;
-    padding: 30px 30px 20px 30px;
-    margin-bottom: 2.5%;
-    
+.Image_Working_Girl img {
+    max-width: 100%;
+    height: auto;
 }
 
 
-.S3_TWO img {
-    width: 70px;
-    transition: transform 0.3s ease;
-}
 
-.S3_TWO img:hover {
-    transform: translateY(-15px);
-}
-
-.S3_TWO h4 {
+.READ_MORE {
+    width: 23%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    
+    position: absolute;
+    top: 65%;
+    right: 0;
+    padding-top: 2%;
+    padding-left: 2%;
+    line-height: 10%;
 }
 
-.S3_TWO p {
-    color: #5f6fb5;
+.READ_MORE p {
+    line-height: 150%;
+    margin-top: -1%;
 }
-
-
 
 button {
     letter-spacing: 2px;
     color: #ffffff;
     background-color: #0ad3ef;
     border: none;
-    padding: 10%;
-    width: 150px;
-    height: 50px;
-    border-radius: 30px;
-    margin-top: 15%;
+    padding: 1%;
+    border-top-left-radius: 5%;
 }
 
+
+
+.READ_MORE img {
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .Section4 {
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .S4_TWO {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+
+
+
+    .S4_ONE h4 {
+        letter-spacing: 2px;
+        color: #549bd6;
+        font-size: 17px;
+        }
+    
+    
+    .S4_ONE h1 {
+    display: flex;
+    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
+    line-height: 1.2;
+    }
+    
+    .S4_ONE p {
+    color: #6a7cbd;
+    text-align: justify;
+    line-height: 150%;
+    font-size: 18px;
+    }
+    
+        
+
+    
+    .Image_Working_Girl {
+        position: relative;
+        width: 300%;
+    }
+    
+    .Image_Working_Girl img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .READ_MORE {
+        width: 23%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        top: 64.5%;
+        right: 0;
+        padding-top: 2%;
+        padding-left: 2%;
+        line-height: 10%;
+        font-size: 16px;
+    }
+
+
+    .READ_MORE img {
+        width: 30%;
+    }
+
+
+
+
+    .ProgressBar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: -7%; */
+    }
+
+    .ProgressBar div {
+        /* position: relative; - SVG CIRCLE PROGRESSBAR */
+        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+        height: 70px;  - SVG CIRCLE PROGRESSBAR */
+        width: 5%; 
+        height: 2%;
+        /* width: 80px;
+        height: 100px; */
+    }
+
+
+    .ProgressBar h2 {
+        display: flex;
+        padding-right: 15%;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+    }
+
+
+    .Paragraphes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 13%;
+        margin-top: -1%;
+        width: 500px;
+        padding-left: 19%;
+    
+    }
+
+
+    .Paragraphes p {
+        text-align: center;
+        display: flex;
+        margin-right: 20%;
+        color: #ffffff;
+    }
+
+    
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    .Section4 {
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .S4_TWO {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    
+    .Image_Working_Girl {
+        position: relative;
+        width: 300%;
+    }
+    
+    .Image_Working_Girl img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .READ_MORE {
+        width: 23%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        top: 64.5%;
+        right: 0;
+        padding-top: 2%;
+        padding-left: 2%;
+        line-height: 10%;
+    }
+
+
+
+    .ProgressBar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15%;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: -7%; */
+    }
+    
+
+    .ProgressBar div {
+        /* position: relative; - SVG CIRCLE PROGRESSBAR */
+        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+        height: 70px;  - SVG CIRCLE PROGRESSBAR */
+        width: 15%; 
+        height: 5%;
+        /* width: 80px;
+        height: 100px; */
+    }
+
+
+    .ProgressBar h2 {
+        display: flex;
+        padding-right: 15%;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+    }
+
+
+    .Paragraphes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 13%;
+        margin-top: -1%;
+        width: 270px;
+        margin-left: 3%;
+    
+    }
+
+
+    .Paragraphes p {
+        text-align: center;
+        display: flex;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .Section4 {
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .S4_TWO {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+
+
+    .S4_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+    font-size: 14px;
+    }
+
+
+    .S4_ONE h1 {
+    display: flex;
+    font-size: 20px; /* 20px - taille de la police pour les petits écrans */
+    line-height: 1.2;
+    }
+
+    .S4_ONE p {
+    color: #6a7cbd;
+    text-align: justify;
+    line-height: 150%;
+    font-size: 14px;
+    }
+    
+
+
+    
+    .Image_Working_Girl {
+        position: relative;
+        width: 170%;
+    }
+    
+    .Image_Working_Girl img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .READ_MORE {
+        width: 23%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        top: 64.5%;
+        right: 0;
+        padding-top: 2%;
+        padding-left: 2%;
+        line-height: 10%;
+        font-size: 12px;
+    }
+
+
+    .READ_MORE h4 {
+        line-height: 150%;
+    }
+
+    
+    .READ_MORE img {
+        width: 40%;
+    }
+
+    .ProgressBar div {
+        /* position: relative; - SVG CIRCLE PROGRESSBAR */
+        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+        height: 70px;  - SVG CIRCLE PROGRESSBAR */
+        width: 10px; 
+        height: 30px;
+        /* width: 80px;
+        height: 100px; */
+    }
+
+
+    .ProgressBar h2 {
+        display: flex;
+        padding-right: 15%;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+    }
+
+
+    .Paragraphes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 13%;
+        margin-top: -1%;
+        width: 200px;
+        margin-left: 3%;
+    
+    }
+
+
+    .Paragraphes p {
+        text-align: center;
+        display: flex;
+        color: #ffffff;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    .Section4 {
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .S4_TWO {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .S4_ONE {
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
+
+
+    .S4_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+    font-size: 14px;
+    }
+
+
+    .S4_ONE h1 {
+    display: flex;
+    font-size: 15px; /* 20px - taille de la police pour les petits écrans */
+    line-height: 1.2;
+    }
+
+    .S4_ONE p {
+    color: #6a7cbd;
+    text-align: justify;
+    line-height: 150%;
+    font-size: 13px;
+    }
+    
+
+
+    
+    .Image_Working_Girl {
+        position: relative;
+        width: 170%;
+        margin-top: -170%;
+    }
+    
+    .Image_Working_Girl img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .READ_MORE {
+        width: 47%;
+        height: 27%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        top: 40.5%;
+        right: 0;
+        padding-top: 2%;
+        padding-left: 2%;
+        line-height: 10%;
+        font-size: 12px;
+    }
+
+
+    .READ_MORE h4 {
+        line-height: 150%;
+        font-size: 11px;
+    }
+
+    
+    .READ_MORE img {
+        width: 20%;
+    }
+
+    .READ_MORE p {
+        font-size: 10px;
+    }
+
+
+    .ProgressBar {
+        padding-left: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10%;
+    }
+
+
+    .ProgressBar div {
+        /* position: relative; - SVG CIRCLE PROGRESSBAR */
+        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
+        height: 70px;  - SVG CIRCLE PROGRESSBAR */
+        width: 15%; 
+        height: 5%;
+        /* width: 80px;
+        height: 100px; */
+    }
+
+
+    .ProgressBar h2 {
+        display: flex;
+        padding-right: 15%;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
+        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
+    }
+
+
+    .Paragraphes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 13%;
+        margin-top: -1%;
+        width: 200px;
+        margin-left: 28%;
+    
+    }
+
+
+    .Paragraphes p {
+        text-align: center;
+        display: flex;
+        color: #ffffff;
+    }
+
+
+
+
+}
 
 
 
@@ -115,43 +790,15 @@ button {
 /* LAPTOP M */
 
 @media only screen and (min-width: 1024px) {
-    .Section_3 {
-        height: 100vh;
-        margin-top: -7%;
-    }
+   
+
 }
 
 /* TABLET  */
 
 @media only screen and (max-width: 768px) {
     
-    .Section_3 {
-        padding-bottom: 9%;
-    }
-    
-    .S3_TWO {
-       width: 70%;
-       display: flex;
-       gap: 5%;
-    }
-
-
-    .S3_TWO div {
-        background-color: rgba(53, 70, 137, 0.233);
-        border-radius: 10%;
-        width: 160px;
-        padding: 30px 30px 20px 30px;
-        margin-bottom: 5%;
-        
-    }
-
-    .S3_ONE h1 {
-        display: flex;
-        font-size:  30px;
-        line-height: 1.2;
-        text-align: center;
-        margin-top: -0.001%;
-    }
+   
 }
 
 
@@ -159,39 +806,7 @@ button {
 
 @media only screen and (max-width: 425px) {
     
-    .Section_3 {
-        padding-bottom: 9%;
-    }
-    
-    .S3_TWO {
-       width: 70%;
-       display: flex;
-       gap: 5%;
-    }
-
-
-    .S3_TWO div {
-        background-color: rgba(53, 70, 137, 0.233);
-        border-radius: 10%;
-        width: 160px;
-        padding: 30px 30px 20px 30px;
-        margin-bottom: 7%;
-        
-    }
-
-    .S3_ONE h4 {
-        font-size: 15px;
-        margin-top: 5%;
-    }
-
-    .S3_ONE h1 {
-        display: flex;
-        font-size:  30px;
-        line-height: 1.2;
-        text-align: center;
-        margin-top: -0.001%;
-        margin-bottom: 5%;
-    }
+   
 }
 
 
