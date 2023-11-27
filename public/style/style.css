@@ -2,221 +2,74 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif; 
 }
 
-.Section4 {
-    display: flex;
+
+
+.Section_5 {
     width: 100%;
-    height: 100vh;
     height: fit-content;
+    display: flex;
     background-color: rgb(10, 25, 84);
     color: white;
-    justify-content: space-between;
     align-items: center;
-    position: relative;
-    
-    /* background-repeat: no-repeat;
-    background-position: left center; */
-}
-
-.Image_Back {
-    display: flex;
     justify-content: center;
-    width: 22%;
-    transform: rotate(-5deg);
-}
-
-.Image_Back img {
-    margin-right: 25%;
-    width: 70%;
+    background-size: cover;
+    padding-bottom: 9%;  
+    padding-top: 3.2%;   
 }
 
 
-.S4_ONE {
-    width: 30%;
+.Section_5BIS {
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.S5_ONE {
+    width: 80%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 5% auto; /* auto - centrer avec margin auto */
-    padding-right: 2%;
+    padding-right: 18%;
+    padding-top: 1%;
+    /* line-height: 1.2%; */
+   
 }
 
-.INTRO {
-    width:100%;
-}
-
-
-.S4_ONE h4 {
+.S5_ONE h4 {
     letter-spacing: 2px;
     color: #549bd6;
+    font-size: 18px;
 }
 
 
-.S4_ONE h1 {
+.S5_ONE h1 {
+    margin-top: -1%;
     display: flex;
-    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
+    font-size: 40px;
     line-height: 1.2;
 }
 
-.S4_ONE p {
-    color: #6a7cbd;
-    text-align: justify;
-    line-height: 150%;
+.S5_ONE p {
+    color: #5e74bf;
+    line-height: 160%;
+    font-size: 20px;
+    margin-top: -2%;
 }
 
-
-.S4_ONEBIS {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.ProgressBar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10%;
-    align-items: center;
-    justify-content: center;
-    /* margin-top: -7%; */
-}
-
-.ProgressBar div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1% 3% 1% 5%;
-    width: 20%;
-}
-
-.ProgressBar div {
-    /* position: relative; - SVG CIRCLE PROGRESSBAR */
-    /* width: 70px;  - SVG CIRCLE PROGRESSBAR
-    height: 70px;  - SVG CIRCLE PROGRESSBAR */
-    width: 10%; 
-    height: auto;
-    /* width: 80px;
-    height: 100px; */
-}
-
-/* .ProgressBar svg { SVG CIRCLE PROGRESSBAR
-    position: absolute; - SVG CIRCLE PROGRESSBAR
-    width: 100%;
-    height: 100%;
+/* .S5_ONE div h1,
+.S5_ONE div p,
+.S5_ONE div h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
 } */
 
-.ProgressBar h2 {
-    display: flex;
-    padding-right: 15%;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-size: 35px;
-    /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
-    /* position: absolute; - SVG CIRCLE PROGRESSBAR */
-}
 
-
-
-  .First_ProgressBar { 
-      width: 70px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      background: 
-        radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 80% 100%),
-        conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
-  }
-
-  .Second_ProgressBar { 
-    width: 70px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    background: 
-      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 78% 100%),
-      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
-}
-
-
-.Third_ProgressBar { 
-    width: 70px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    background: 
-      radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 64% 100%),
-      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
-}
-  
-  .First_ProgressBar progress,
-  .Second_ProgressBar progress,
-  .Third_ProgressBar progress {
-      visibility: hidden;
-  }
-
-
-  /* .First_ProgressBar h2,
-  .Second_ProgressBar h2,
-  .Third_ProgressBar h2 {
-  } */
-
-
-
-.Paragraphes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 13%;
-    margin-top: -1%;
-
-}
-
-.Paragraphes p {
-    color: white;
-}
-
-
-.S4_TWO {
-    display: flex;
-    width: 50%;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-
-.Image_Working_Girl {
-    position: relative;
-    width: 100%;
-}
-
-.Image_Working_Girl img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-
-.READ_MORE {
-    width: 23%;
-    height: 35%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    position: absolute;
-    top: 65%;
-    right: 0;
-    padding-top: 2%;
-    padding-left: 2%;
-    line-height: 10%;
-}
-
-.READ_MORE p {
-    line-height: 150%;
-    margin-top: -1%;
+.GET_STARTED {
+    margin-top: 4%;
 }
 
 button {
@@ -224,261 +77,693 @@ button {
     color: #ffffff;
     background-color: #0ad3ef;
     border: none;
-    padding: 1%;
-    border-top-left-radius: 5%;
+    padding: 2%;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-.READ_MORE img {
-    width: 20%;
+.S5_TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 20%;
+    gap: 5%;
+    padding-bottom: 2.1%;
+    /* justify-content: space-between; - Mobile screen */
 }
 
+.S5_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 190px;
+    height: auto;
+    padding: 6% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;  
+}
 
+.S5_TWO img {
+    width: 55px;
+    height: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 1440px) {
-    .Section4 {
-        height: 100vh;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
-    .S4_TWO {
-        display: flex;
-        width: 50%;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+.S5_TWO h4 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     
+}
+
+
+.S5_TWO h1 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+    
+}
+
+
+.S5_TWO p {
+    color: #4f64ac;
+    line-height: 8%;
+}
+
+.S5_TWO div img,
+.S5_TWO div h4,
+.S5_TWO div p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 
 
-    .S4_ONE h4 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+/* LAPTOP  */
+@media only screen and (min-width: 1440px) {
+
+    .Section_5 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding-bottom: 11.5%;  
+    padding-top: 7%;   
+}
+
+
+.Section_5BIS {
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.S5_ONE {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 15%;
+    /* line-height: 1.2%; */
+   
+}
+
+.S5_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+    font-size: 18px;
+}
+
+
+.S5_ONE h1 {
+    margin-top: -1%;
+    display: flex;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.S5_ONE p {
+    color: #5e74bf;
+    line-height: 160%;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: -2%;
+}
+
+/* .S5_ONE div h1,
+.S5_ONE div p,
+.S5_ONE div h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+} */
+
+
+.GET_STARTED {
+    margin-top: 4%;
+}
+
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 2%;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.S5_TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 15%;
+    gap: 5%;
+    padding-bottom: 2.1%;
+    /* justify-content: space-between; - Mobile screen */
+}
+
+.S5_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 190px;
+    height: auto;
+    padding: 6% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;  
+}
+
+.S5_TWO img {
+    width: 55px;
+    height: auto;
+}
+
+.S5_TWO h4 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+}
+
+
+.S5_TWO h1 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+    
+}
+
+
+.S5_TWO p {
+    color: #4f64ac;
+    line-height: 8%;
+}
+
+.S5_TWO div img,
+.S5_TWO div h4,
+.S5_TWO div p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+}
+
+
+
+
+
+
+
+/* LAPTOP M  */
+@media only screen and (max-width: 1024px) {
+
+    .Section_5 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding-bottom: 11.5%;  
+    padding-top: 7%;   
+}
+
+
+.Section_5BIS {
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.S5_ONE {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 8%;
+    margin-top: -2%;
+    /* line-height: 1.2%; */
+   
+}
+
+.S5_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+    font-size: 15px;
+}
+
+
+.S5_ONE h1 {
+    margin-top: -1%;
+    display: flex;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.S5_ONE p {
+    color: #5e74bf;
+    line-height: 160%;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: -2%;
+}
+
+/* .S5_ONE div h1,
+.S5_ONE div p,
+.S5_ONE div h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+} */
+
+
+.GET_STARTED {
+    margin-top: 4%;
+}
+
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 2%;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.S5_TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140%;
+    padding-left: 7.6%;
+    gap: 5%;
+    padding-bottom: 2.1%;
+    /* justify-content: space-between; - Mobile screen */
+}
+
+.S5_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 170px;
+    height: auto;
+    padding: 6% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;  
+}
+
+.S5_TWO img {
+    width: 55px;
+    height: auto;
+}
+
+.S5_TWO h4 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+}
+
+
+.S5_TWO h1 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+    
+}
+
+
+.S5_TWO p {
+    color: #4f64ac;
+    line-height: 8%;
+}
+
+.S5_TWO div img,
+.S5_TWO div h4,
+.S5_TWO div p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+}
+
+
+
+
+
+/* TABLET */
+@media only screen and (max-width: 768px) {
+
+    .Section_5 {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        background-color: rgb(10, 25, 84);
+        color: white;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        padding-bottom: 11.5%;  
+        padding-top: 7%;   
+    }
+
+
+    .Section_5BIS {
+        width: 100%;
+        display: flex;
+        padding-top: 5%;
+    }
+
+    .S5_ONE {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 6%;
+    /* margin-left: 25%; */
+        padding-top: 20%;
+    /* line-height: 1.2%; */
+   
+    }
+
+    .S5_ONE h4 {
         letter-spacing: 2px;
         color: #549bd6;
-        font-size: 17px;
-        }
-    
-    
-    .S4_ONE h1 {
-    display: flex;
-    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
-    line-height: 1.2;
+        font-size: 20px;
     }
+
+
+    .S5_ONE h1 {
+        margin-top: -1%;
+        display: flex;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .S5_ONE p {
+        color: #5e74bf;
+        line-height: 160%;
+        font-size: 18px;
+        text-align: justify;
+        margin-top: -2%;
+    }
+
+/* .S5_ONE div h1,
+.S5_ONE div p,
+.S5_ONE div h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+} */
+
+
+    GET_STARTED {
+        margin-top: 4%;
+    }
+
+    button {
+        letter-spacing: 2px;
+        color: #ffffff;
+        background-color: #0ad3ef;
+        border: none;
+        padding: 2%;
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .S5_TWO {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding-left: 20%;
+        gap: 3%;
+        padding-bottom: 1%;
+    /* justify-content: space-between; - Mobile screen */
+    }
+
+    .S5_TWO div {
+        background-color: rgba(53, 70, 137, 0.233);
+        border-radius: 10%;
+        width: 150px;
+        width: 45%;
+        height: auto;
+        padding: 6% 6% 6% 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;  
+    }
+
+    .S5_TWO img {
+        width: 45px;
+        height: auto;
+    }
+
+    .S5_TWO h4 {
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
     
-    .S4_ONE p {
-    color: #6a7cbd;
-    text-align: justify;
-    line-height: 150%;
+    }
+
+
+    .S5_TWO h1 {
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    
+    
+    }
+
+
+    .S5_TWO p {
+        color: #4f64ac;
+        line-height: 8%;    
+    }
+
+    .S5_TWO div img,
+    .S5_TWO div h4,
+    .S5_TWO div p {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+
+
+
+
+
+/* MOBILE L  */
+@media only screen and (max-width: 768px) {
+
+    .Section_5 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding-bottom: 11.5%;  
+    padding-top: 7%;   
+}
+
+
+.Section_5BIS {
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.S5_ONE {
+    width: 120%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 15%;
+    margin-top: 1.5%;
+    /* line-height: 1.2%; */
+   
+}
+
+.S5_ONE h4 {
+    letter-spacing: 2px;
+    color: #549bd6;
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+
+
+.S5_ONE h1 {
+    margin-top: -1%;
+    display: flex;
+    font-size: 30px;
+    line-height: 1.2;
+    padding-bottom: 5%;
+}
+
+.S5_ONE p {
+    color: #5e74bf;
+    line-height: 160%;
     font-size: 18px;
-    }
+    text-align: justify;
+    margin-top: -2%;
+    padding-bottom: 5%;
+}
+
+/* .S5_ONE div h1,
+.S5_ONE div p,
+.S5_ONE div h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+} */
+
+
+.GET_STARTED {
+    margin-top: 4%;
+}
+
+button {
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 2%;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.S5_TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140%;
+    padding-left: 5%;
+    gap: 5%;
+    padding-bottom: 2.1%;
+    /* justify-content: space-between; - Mobile screen */
+}
+
+.S5_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 170px;
+    height: auto;
+    padding: 6% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;  
+}
+
+.S5_TWO img {
+    width: 55px;
+    height: auto;
+}
+
+.S5_TWO h4 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     
-        
-
-    
-    .Image_Working_Girl {
-        position: relative;
-        width: 300%;
-    }
-    
-    .Image_Working_Girl img {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-    .READ_MORE {
-        width: 23%;
-        height: 30%;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        position: absolute;
-        top: 64.5%;
-        right: 0;
-        padding-top: 2%;
-        padding-left: 2%;
-        line-height: 10%;
-        font-size: 16px;
-    }
-
-
-    .READ_MORE img {
-        width: 30%;
-    }
-
-
-
-
-    .ProgressBar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5%;
-        align-items: center;
-        justify-content: center;
-        /* margin-top: -7%; */
-    }
-
-    .ProgressBar div {
-        /* position: relative; - SVG CIRCLE PROGRESSBAR */
-        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
-        height: 70px;  - SVG CIRCLE PROGRESSBAR */
-        width: 5%; 
-        height: 2%;
-        /* width: 80px;
-        height: 100px; */
-    }
-
-
-    .ProgressBar h2 {
-        display: flex;
-        padding-right: 15%;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        font-size: 25px;
-        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
-        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
-    }
-
-
-    .Paragraphes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 13%;
-        margin-top: -1%;
-        width: 500px;
-        padding-left: 19%;
-    
-    }
-
-
-    .Paragraphes p {
-        text-align: center;
-        display: flex;
-        margin-right: 20%;
-        color: #ffffff;
-    }
-
-    
-
-
 }
 
 
-
-
-
-
-@media only screen and (min-width: 1024px) {
-    .Section4 {
-        height: 100vh;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
-    .S4_TWO {
-        display: flex;
-        width: 50%;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+.S5_TWO h1 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     
     
-    .Image_Working_Girl {
-        position: relative;
-        width: 300%;
-    }
-    
-    .Image_Working_Girl img {
-        max-width: 100%;
-        height: auto;
-    }
+}
 
 
-    .READ_MORE {
-        width: 23%;
-        height: 30%;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        position: absolute;
-        top: 64.5%;
-        right: 0;
-        padding-top: 2%;
-        padding-left: 2%;
-        line-height: 10%;
-    }
+.S5_TWO p {
+    color: #4f64ac;
+    line-height: 8%;
+}
 
-
-
-    .ProgressBar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15%;
-        align-items: center;
-        justify-content: center;
-        /* margin-top: -7%; */
-    }
-    
-
-    .ProgressBar div {
-        /* position: relative; - SVG CIRCLE PROGRESSBAR */
-        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
-        height: 70px;  - SVG CIRCLE PROGRESSBAR */
-        width: 15%; 
-        height: 5%;
-        /* width: 80px;
-        height: 100px; */
-    }
-
-
-    .ProgressBar h2 {
-        display: flex;
-        padding-right: 15%;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        font-size: 25px;
-        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
-        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
-    }
-
-
-    .Paragraphes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 13%;
-        margin-top: -1%;
-        width: 270px;
-        margin-left: 3%;
-    
-    }
-
-
-    .Paragraphes p {
-        text-align: center;
-        display: flex;
-    }
-
+.S5_TWO div img,
+.S5_TWO div h4,
+.S5_TWO div p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 }
 
@@ -488,326 +773,177 @@ button {
 
 
 
-
-
-
-
-
+/* MOBILE M  */
 @media only screen and (max-width: 768px) {
-    .Section4 {
-        height: 100vh;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-    }
 
-    .S4_TWO {
-        display: flex;
-        width: 50%;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-
+    .Section_5 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: rgb(10, 25, 84);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding-bottom: 11.5%;  
+    padding-top: 7%;   
+}
 
 
-    .S4_ONE h4 {
+.Section_5BIS {
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.S5_ONE {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 15%;
+    margin-top: -2%;
+    /* line-height: 1.2%; */
+   
+}
+
+.S5_ONE h4 {
     letter-spacing: 2px;
     color: #549bd6;
-    font-size: 14px;
-    }
-
-
-    .S4_ONE h1 {
-    display: flex;
-    font-size: 20px; /* 20px - taille de la police pour les petits écrans */
-    line-height: 1.2;
-    }
-
-    .S4_ONE p {
-    color: #6a7cbd;
-    text-align: justify;
-    line-height: 150%;
-    font-size: 14px;
-    }
-    
-
-
-    
-    .Image_Working_Girl {
-        position: relative;
-        width: 170%;
-    }
-    
-    .Image_Working_Girl img {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-    .READ_MORE {
-        width: 23%;
-        height: 45%;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        position: absolute;
-        top: 64.5%;
-        right: 0;
-        padding-top: 2%;
-        padding-left: 2%;
-        line-height: 10%;
-        font-size: 12px;
-    }
-
-
-    .READ_MORE h4 {
-        line-height: 150%;
-    }
-
-    
-    .READ_MORE img {
-        width: 40%;
-    }
-
-    .ProgressBar div {
-        /* position: relative; - SVG CIRCLE PROGRESSBAR */
-        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
-        height: 70px;  - SVG CIRCLE PROGRESSBAR */
-        width: 10px; 
-        height: 30px;
-        /* width: 80px;
-        height: 100px; */
-    }
-
-
-    .ProgressBar h2 {
-        display: flex;
-        padding-right: 15%;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        font-size: 20px;
-        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
-        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
-    }
-
-
-    .Paragraphes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 13%;
-        margin-top: -1%;
-        width: 200px;
-        margin-left: 3%;
-    
-    }
-
-
-    .Paragraphes p {
-        text-align: center;
-        display: flex;
-        color: #ffffff;
-    }
-
-
-
-
+    font-size: 12px;
+    padding-bottom: 5%;
 }
 
 
+.S5_ONE h1 {
+    margin-top: -1%;
+    display: flex;
+    font-size: 20px;
+    line-height: 1.2;
+    padding-bottom: 5%;
+}
+
+.S5_ONE p {
+    color: #5e74bf;
+    line-height: 160%;
+    font-size: 15px;
+    text-align: left;
+    margin-top: -2%;
+    padding-bottom: 5%;
+}
+
+/* .S5_ONE div h1,
+.S5_ONE div p,
+.S5_ONE div h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+} */
 
 
+.GET_STARTED {
+    margin-top: 4%;
+}
 
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 425px) {
-    .Section4 {
-        height: 100vh;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
-    .S4_TWO {
-        display: flex;
-        width: 50%;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-
-    .S4_ONE {
-        padding-top: 30%;
-        padding-bottom: 30%;
-    }
-
-
-    .S4_ONE h4 {
+button {
     letter-spacing: 2px;
-    color: #549bd6;
-    font-size: 14px;
-    }
-
-
-    .S4_ONE h1 {
+    color: #ffffff;
+    background-color: #0ad3ef;
+    border: none;
+    padding: 2%;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
     display: flex;
-    font-size: 15px; /* 20px - taille de la police pour les petits écrans */
-    line-height: 1.2;
-    }
+    justify-content: center;
+    align-items: center;
+}
 
-    .S4_ONE p {
-    color: #6a7cbd;
-    text-align: justify;
-    line-height: 150%;
-    font-size: 13px;
-    }
+.S5_TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 10%;
+    gap: 5%;
+    margin-top: 5%;
+    padding-bottom: 4%;
+    /* justify-content: space-between; - Mobile screen */
+}
+
+.S5_TWO div {
+    background-color: rgba(53, 70, 137, 0.233);
+    border-radius: 10%;
+    width: 120px;
+    height: auto;
+    padding: 6% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15.1%;  
+}
+
+.S5_TWO img {
+    width: 45px;
+    height: auto;
+}
+
+.S5_TWO h4 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
     
+}
 
 
+.S5_TWO h1 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     
-    .Image_Working_Girl {
-        position: relative;
-        width: 170%;
-        margin-top: -170%;
-    }
     
-    .Image_Working_Girl img {
-        max-width: 100%;
-        height: auto;
-    }
+}
 
 
-    .READ_MORE {
-        width: 47%;
-        height: 27%;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        position: absolute;
-        top: 40.5%;
-        right: 0;
-        padding-top: 2%;
-        padding-left: 2%;
-        line-height: 10%;
-        font-size: 12px;
-    }
+.S5_TWO p {
+    color: #4f64ac;
+    line-height: 8%;
+}
 
-
-    .READ_MORE h4 {
-        line-height: 150%;
-        font-size: 11px;
-    }
-
-    
-    .READ_MORE img {
-        width: 20%;
-    }
-
-    .READ_MORE p {
-        font-size: 10px;
-    }
-
-
-    .ProgressBar {
-        padding-left: 30%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15%;
-        align-items: center;
-        justify-content: center;
-        padding-top: 10%;
-    }
-
-
-    .ProgressBar div {
-        /* position: relative; - SVG CIRCLE PROGRESSBAR */
-        /* width: 70px;  - SVG CIRCLE PROGRESSBAR
-        height: 70px;  - SVG CIRCLE PROGRESSBAR */
-        width: 15%; 
-        height: 5%;
-        /* width: 80px;
-        height: 100px; */
-    }
-
-
-    .ProgressBar h2 {
-        display: flex;
-        padding-right: 15%;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        font-size: 20px;
-        /* transform: translate(-50%, -50%); - SVG CIRCLE PROGRESSBAR */
-        /* position: absolute; - SVG CIRCLE PROGRESSBAR */
-    }
-
-
-    .Paragraphes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 13%;
-        margin-top: -1%;
-        width: 200px;
-        margin-left: 28%;
-    
-    }
-
-
-    .Paragraphes p {
-        text-align: center;
-        display: flex;
-        color: #ffffff;
-    }
-
-
-
+.S5_TWO div img,
+.S5_TWO div h4,
+.S5_TWO div p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 }
 
 
 
-/* MEDIA QUERY LAPTOP */
 
 
-/* LAPTOP L */
-
-@media only screen and (min-width: 1440px) {
-    .Section_3 {
-        margin-top: -7%;
-    }
-}
 
 
-/* LAPTOP M */
-
-@media only screen and (min-width: 1024px) {
-   
-
-}
-
-/* TABLET  */
-
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (min-width: 425px) {
    
 }
 
 
-/* MOBILE L */
-
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 375px) {
     
-   
 }
+
+@media only screen and (min-width: 425px) {
+ 
+}
+
+
+
 
 
 
