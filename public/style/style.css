@@ -3,14 +3,8 @@ body {
     height: fit-content;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
-    
+    font-family: 'Roboto', sans-serif;   
 }
-
-
-
-
 
 
 .Section_3 {
@@ -22,9 +16,9 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    padding-top: 7%;
+    padding-top: 6%;
     background-size: cover;
-    padding-bottom: 7.4%; 
+    padding-bottom: 1%;
 }
 
 .S3_ONE {
@@ -35,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 1px;
-    padding-bottom: 1%;
+    
    
 }
 
@@ -47,9 +41,10 @@ body {
 
 .S3_ONE h1 {
     display: flex;
-    font-size: 30px;
+    font-size:  40px;
     line-height: 1.2;
     text-align: center;
+    margin-top: -0.001%;
 }
 
 .S3_TWO {
@@ -84,10 +79,11 @@ body {
     
 }
 
-.GET_STARTED {
-    padding-top: 3%;
-    padding-left: 14%;
+.S3_TWO p {
+    color: #5f6fb5;
 }
+
+
 
 button {
     letter-spacing: 2px;
@@ -98,20 +94,25 @@ button {
     width: 150px;
     height: 50px;
     border-radius: 30px;
+    margin-top: 15%;
 }
 
 
 
 
+/* MEDIA QUERY LAPTOP */
 
+
+/* LAPTOP L */
 
 @media only screen and (min-width: 1440px) {
     .Section_3 {
-        overflow: hidden;
         margin-top: -7%;
     }
 }
 
+
+/* LAPTOP M */
 
 @media only screen and (min-width: 1024px) {
     .Section_3 {
@@ -120,9 +121,78 @@ button {
     }
 }
 
+/* TABLET  */
+
+@media only screen and (max-width: 768px) {
+    
+    .Section_3 {
+        padding-bottom: 9%;
+    }
+    
+    .S3_TWO {
+       width: 70%;
+       display: flex;
+       gap: 5%;
+    }
 
 
+    .S3_TWO div {
+        background-color: rgba(53, 70, 137, 0.233);
+        border-radius: 10%;
+        width: 160px;
+        padding: 30px 30px 20px 30px;
+        margin-bottom: 5%;
+        
+    }
 
+    .S3_ONE h1 {
+        display: flex;
+        font-size:  30px;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: -0.001%;
+    }
+}
+
+
+/* MOBILE L */
+
+@media only screen and (max-width: 425px) {
+    
+    .Section_3 {
+        padding-bottom: 9%;
+    }
+    
+    .S3_TWO {
+       width: 70%;
+       display: flex;
+       gap: 5%;
+    }
+
+
+    .S3_TWO div {
+        background-color: rgba(53, 70, 137, 0.233);
+        border-radius: 10%;
+        width: 160px;
+        padding: 30px 30px 20px 30px;
+        margin-bottom: 7%;
+        
+    }
+
+    .S3_ONE h4 {
+        font-size: 15px;
+        margin-top: 5%;
+    }
+
+    .S3_ONE h1 {
+        display: flex;
+        font-size:  30px;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: -0.001%;
+        margin-bottom: 5%;
+    }
+}
 
 
 
