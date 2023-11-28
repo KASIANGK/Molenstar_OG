@@ -467,7 +467,7 @@ button {
 
 
 /* TABLET */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 
     .Section_5 {
         width: 100%;
@@ -496,9 +496,7 @@ button {
         flex-direction: column;
         justify-content: center;
         padding-right: 6%;
-    /* margin-left: 25%; */
         padding-top: 20%;
-    /* line-height: 1.2%; */
    
     }
 
@@ -524,12 +522,7 @@ button {
         margin-top: -2%;
     }
 
-/* .S5_ONE div h1,
-.S5_ONE div p,
-.S5_ONE div h4 {
-    margin-top: 10%;
-    margin-bottom: 10%;
-} */
+
 
 
     GET_STARTED {
@@ -553,13 +546,12 @@ button {
 
     .S5_TWO {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         max-width: 100%;
         padding-left: 20%;
         gap: 3%;
         padding-bottom: 1%;
-    /* justify-content: space-between; - Mobile screen */
+
     }
 
     .S5_TWO div {
@@ -611,7 +603,7 @@ button {
         margin-top: 5%;
         margin-bottom: 5%;
     }
-}
+} */
 
 
 
@@ -650,7 +642,7 @@ button {
     padding-left: 5%;
     padding-right: 15%;
     margin-top: 1.5%;
-    /* line-height: 1.2%; */
+   
    
 }
 
@@ -679,12 +671,7 @@ button {
     padding-bottom: 5%;
 }
 
-/* .S5_ONE div h1,
-.S5_ONE div p,
-.S5_ONE div h4 {
-    margin-top: 10%;
-    margin-bottom: 10%;
-} */
+
 
 
 .GET_STARTED {
@@ -713,7 +700,7 @@ button {
     padding-left: 5%;
     gap: 5%;
     padding-bottom: 2.1%;
-    /* justify-content: space-between; - Mobile screen */
+  
 }
 
 .S5_TWO div {
