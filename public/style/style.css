@@ -21,14 +21,14 @@ body {
     background-position: left center; */
 }
 
-.Image_Back {
+.Image_Dots {
     display: flex;
     justify-content: center;
     width: 22%;
     transform: rotate(-5deg);
 }
 
-.Image_Back img {
+.Image_Dots img {
     margin-right: 25%;
     width: 70%;
 }
@@ -52,13 +52,13 @@ body {
 
 .S4_ONE h4 {
     letter-spacing: 2px;
-    color: #549bd6;
+    color: #2a9abf;
 }
 
 
-.S4_ONE h1 {
+.INTRO h1 {
     display: flex;
-    font-size: 35px; /* 20px - taille de la police pour les petits écrans */
+    font-size: 1200px; /* 20px - taille de la police pour les petits écrans */
     line-height: 1.2;
 }
 
@@ -128,7 +128,7 @@ body {
       align-items: center;
       background: 
         radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 80% 100%),
-        conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+        conic-gradient(#2a9abf 85%, rgba(119, 145, 176, 0.196) 0);    
   }
 
   .Second_ProgressBar { 
@@ -138,7 +138,7 @@ body {
     align-items: center;
     background: 
       radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 78% 100%),
-      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+      conic-gradient(#2a9abf 85%, rgba(119, 145, 176, 0.196) 0);    
 }
 
 
@@ -149,7 +149,7 @@ body {
     align-items: center;
     background: 
       radial-gradient(closest-side, rgb(10, 25, 84) 95%, transparent 64% 100%),
-      conic-gradient(rgb(24, 124, 167) 85%, rgba(119, 145, 176, 0.196) 0);    
+      conic-gradient(#2a9abf 85%, rgba(119, 145, 176, 0.196) 0);    
 }
   
   .First_ProgressBar progress,
@@ -222,7 +222,7 @@ body {
 button {
     letter-spacing: 2px;
     color: #ffffff;
-    background-color: #0ad3ef;
+    background-color: #2a9abf;
     border: none;
     padding: 1%;
     border-top-left-radius: 5%;
