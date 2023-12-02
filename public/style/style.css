@@ -1,31 +1,91 @@
 body {
     width: 100%;
+    height: fit-content;
     margin: 0;
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif; 
 }
 
 
+main {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    margin: 0;
+}
+
 
 .Section_5 {
     width: 100%;
-    height: fit-content;
+    height: 100vh;
+    margin: 0;
     display: flex;
-    background-color: rgb(10, 25, 84);
     color: white;
     align-items: center;
-    justify-content: center;
-    background-size: cover;
-    padding-bottom: 9%;  
-    padding-top: 3.2%;   
+    background-image: url('public/src/image/overlys-img.png');
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed
 }
 
 
-.Section_5BIS {
+.Global_Projects {
     width: 100%;
     display: flex;
-    padding-top: 5%;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    gap: 4%;
 }
+
+
+.Global_Projects div {
+    background-color: #17256e;
+    border-radius: 10%;
+    width: 200px;
+    padding: 6% 3% 5% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;  
+}
+
+
+.Global_Projects img {
+    width: 55px;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.Global_Projects h4 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin-top: -1%;
+    
+}
+
+
+.Global_Projects h1 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+
+.Global_Projects p {
+    color: #4f64ac;
+    margin-top: -18%;
+    line-height: 1%;
+    font-size: 16px;
+
+}
+
+
+
 
 .S5_ONE {
     width: 80%;
@@ -33,8 +93,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 18%;
-    padding-top: 1%;
     /* line-height: 1.2%; */
    
 }
@@ -60,13 +118,6 @@ body {
     margin-top: -2%;
 }
 
-/* .S5_ONE div h1,
-.S5_ONE div p,
-.S5_ONE div h4 {
-    margin-top: 10%;
-    margin-bottom: 10%;
-} */
-
 
 .GET_STARTED {
     margin-top: 4%;
@@ -87,64 +138,11 @@ button {
     align-items: center;
 }
 
-.S5_TWO {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-left: 20%;
-    gap: 5%;
-    padding-bottom: 2.1%;
-    /* justify-content: space-between; - Mobile screen */
-}
-
-.S5_TWO div {
-    background-color: rgba(53, 70, 137, 0.233);
-    border-radius: 10%;
-    width: 190px;
-    height: auto;
-    padding: 6% 6% 6% 6%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5%;  
-}
-
-.S5_TWO img {
-    width: 55px;
-    height: auto;
-}
-
-.S5_TWO h4 {
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    
-}
 
 
-.S5_TWO h1 {
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    
-    
-}
 
 
-.S5_TWO p {
-    color: #4f64ac;
-    line-height: 8%;
-}
 
-.S5_TWO div img,
-.S5_TWO div h4,
-.S5_TWO div p {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
 
 
 
