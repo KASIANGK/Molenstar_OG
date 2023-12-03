@@ -8,15 +8,6 @@ body {
 }
 
 
-body {
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto', sans-serif;
-
-}
-
 .Section_6 {
     width: 100%;
     height: fit-content;
@@ -58,7 +49,7 @@ body {
 
 .S6_ONE h1 {
     display: flex;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 1.2;
     padding-bottom: 0.5%;
 }
@@ -149,10 +140,9 @@ body {
 
 .ImageContainer {
     display: flex;
-    width: 70%;
+    width: 60%;
     gap: 3%;
     overflow: hidden;
-    transition: transform 0.3 ease;
     flex-wrap: wrap;
     justify-content: center;
     z-index: 3;
@@ -160,68 +150,26 @@ body {
 
 .ImageContainer div {
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .ImageContainer img {
     width: 450px;
     position: relative;
     z-index: 2;
+    transition: transform 0.5s ease;
 }
 
 
 .IC1 img:hover {
     overflow: hidden;
-    transform: rotate(2deg) scale(1.1);
+    transform: rotate(1.5deg) scale(1.03);
 }
 
 .IC2 img:hover {
     overflow: hidden;
-    transform: rotate(2deg) scale(1.1);
+    transform: rotate(1.5deg) scale(1.03);
 }
-
-/* .S6_ONE {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.Intro {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.S6_ONEBIS {
-    width: 100%;
-    display: flex;
-}
-
-.S6_Texte {
-    width: 100%;
-    display: flex;
-    z-index: 2;
-    position: absolute;
-    margin-top: -100%;
-}
-
-.ImageContainer {
-    width: 100%;
-    display: flex;
-    position: relative;
-} */
-
-
-
-
-
-
-
-
 
 
 
