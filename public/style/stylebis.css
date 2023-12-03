@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0;
-    background-color: rgb(10, 25, 84);
+    background-color: #0a1650;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -34,34 +34,63 @@ main {
 
 .S4_ONE {
     margin-top: 10%;
+    width: 50%;
 }
 
+.RELIABLE {
+  margin-left: 10%;
+  margin-top: -1%;
+}
 
+.S4_ONE h4 {
+    color: #1f74a6;
+    width: 100%;
+    letter-spacing: 4px;
+    font-size: 17px;
+}
 
-.RELIABLE h4 {
-    color: aqua;
+.RELIABLE h1 {
+    font-size: 45px;
+    margin-top: -2%;
+    line-height: 120%;
 }
 
 .ProgressBar {
     display: flex;
     flex-wrap: wrap;
+    gap: 5%;
+    width: 100%;
+    align-items: center;
+    
 }
 
 
 
-
+/* 
 .S4_TWO {
     width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     position: relative;
+} */
+
+.Container_Img {
+    width: 110%;
+    height: 850px;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-#Working_Girl {
+
+
+/* #Working_Girl {
     width: 100%;
     padding-left: 1.5%;
-}
+} */
 
 .READ_MORE {
     width: 47%;
@@ -73,7 +102,7 @@ main {
     flex-direction: column;
     text-align: left;
     z-index: 2;
-    margin-top: 55%;
+    margin-top: 60%;
     margin-left: 53%;
     border-top-left-radius: 12px;
     position: absolute;
@@ -98,15 +127,15 @@ main {
   }
   
   @keyframes html-progress {
-    to { --progress-value: 92; }
+    to { --progress-value: 85; }
   }
   
   @keyframes css-progress {
-    to { --progress-value: 87; }
+    to { --progress-value: 78; }
   }
   
   @keyframes js-progress {
-    to { --progress-value: 73; }
+    to { --progress-value: 64; }
   }
   
   .progress-bar {
@@ -127,7 +156,7 @@ main {
   
   .html {
     background: 
-      radial-gradient(closest-side, rgb(29, 15, 175) 79%, transparent 80% 100%),
+      radial-gradient(closest-side, #0a1650 79%, transparent 80% 100%),
       conic-gradient(hotpink calc(var(--progress-value) * 1%), pink 0);
     animation: html-progress 2s 1 forwards;
   }
@@ -138,7 +167,7 @@ main {
   
   .css {
     background: 
-      radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0),
+      radial-gradient(closest-side, #0a1650 79%, transparent 80% 100%, white 0),
       conic-gradient(hotpink calc(var(--progress-value) * 1%), pink 0);
     animation: css-progress 2s 1 forwards;
   }
@@ -149,7 +178,7 @@ main {
   
   .js {
     background: 
-      radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0),
+      radial-gradient(closest-side, #0a1650 79%, transparent 80% 100%, white 0),
       conic-gradient(hotpink calc(var(--progress-value) * 1%), pink 0);
     animation: js-progress 2s 1 forwards;
   }
